@@ -2,10 +2,12 @@
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "incremental": true,
-    "target": "ES2022",
+    "target": "esnext",
     "lib": ["esnext"],
-    "module": "ESNext",
+    "module": "esnext",
     "skipLibCheck": true,
+    "outDir": "./dist",  // Ensure output is in dist/
+    "rootDir": "./src", 
 
     /* Bundler mode */
     "moduleResolution": "node",
